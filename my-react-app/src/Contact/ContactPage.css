@@ -1,0 +1,176 @@
+.ContactPage-Body {
+  margin-top: 50px;
+  height: 200vh;
+  background-color: white;
+}
+
+.ContactPage-Map {
+  margin-top: 80px;
+  margin-left: 70px;
+  margin-right: 60px;
+  margin-bottom: 100px;
+}
+
+.Contact-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+.Contact-icons {
+  margin-top: 30px;
+}
+
+.Contact-details {
+  margin-top: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  padding-left: 30px;
+
+}
+
+.Sub-contact-details {
+  color: silver;
+  font-size: medium;
+}
+
+.College-details {
+  letter-spacing: 0.1rem;
+  color: rgb(86, 81, 81);
+  margin-left: 60px;
+  display: grid;
+  grid-template-columns: 30px 1fr;
+}
+
+.Student-details {
+  margin-left: 50px;
+}
+
+
+.Submit {
+  width: 90px;
+  height: 40px;
+  position: relative;
+  font-family: var(--font);
+  color: #3b82f6;
+  font-weight: 600;
+  background-color: #fff;
+  border: none;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  transition: all ease 100ms;
+}
+
+.Submit:hover {
+  background-color: #cbdcf8;
+}
+
+.Submit:focus {
+  background-color: #cbdcf8;
+}
+
+.Submit::before {
+  content: 'done✅';
+  position: absolute;
+  color: #3b82f6;
+  left: 0;
+  top: -14px;
+  right: 0;
+  transition: all ease 300ms;
+  opacity: 0%;
+}
+
+.Submit:focus::before {
+  opacity: 100%;
+  transform: translatey(26px);
+}
+
+.submit {
+  transition: all ease 100ms;
+  opacity: 100%;
+}
+
+.Submit:focus>.submit {
+  opacity: 0%;
+}
+
+.Submit {
+  margin-top: 30px;
+}
+
+.form__group {
+  position: relative;
+  padding: 20px 0 0;
+  width: 100%;
+  max-width: 180px;
+}
+
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 17px;
+  color: #fff;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.form__field::placeholder {
+  color: transparent;
+}
+
+.form__field:placeholder-shown~.form__label {
+  font-size: 17px;
+  cursor: text;
+  top: 20px;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 17px;
+  color: #9b9b9b;
+  pointer-events: none;
+}
+
+.form__field:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #116399, #38caef);
+  border-image-slice: 1;
+}
+
+.form__field:focus~.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 17px;
+  color: #38caef;
+  font-weight: 700;
+}
+
+/* reset input */
+.form__field:required,
+.form__field:invalid {
+  box-shadow: none;
+}
+
+.form__group {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.field1 {
+  text-align: center;
+  padding: 40px;
+  color: rgb(109, 107, 107);
+}

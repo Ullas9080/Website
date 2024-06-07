@@ -1,0 +1,161 @@
+.Course-body {
+  height: 300vh;
+  background-color: white;
+  margin-top: 50px;
+}
+
+.Course-branch-heading {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  padding-top: 70px;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  color: black;
+}
+
+.branch-para {
+  text-align: center;
+  color: rgb(147, 147, 147);
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 0.1rem;
+  padding: 30px;
+}
+
+.Course-branch-sem {
+  margin-left: 150px;
+  margin-right: 150px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  column-gap: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 0.1rem;
+  row-gap: 20px;
+}
+
+.sem-heading {
+  margin-bottom: 20px;
+}
+
+.Course-branch-sem {}
+
+.sem {
+  background-color: #fdefef;
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: none;
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  padding-top: 40px;
+}
+
+.sem:hover {
+  box-shadow: 0 0 30px 5px rgba(79, 79, 79, 0.815);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.sem:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+}
+
+.sem::before {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  box-shadow: 0 0 50px 30px white;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+.sem:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+
+li {
+
+  color: rgb(115, 115, 115);
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 0.1rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ul {
+  padding-bottom: 15px;
+}
+
+.sem-heading {
+  color: #e1e1e1;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+.sem-heading,
+.sem-heading:hover {
+  color: #000000;
+}
+
+.sem-heading:focus:after,
+.sem-heading:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.sem-heading:after {
+  content: "";
+  pointer-events: none;
+  bottom: 0px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #ff0000;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
+.span1 {
+  padding-right: 50px;
+}

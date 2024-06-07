@@ -1,0 +1,668 @@
+.homepageBody {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  border: none;
+  height: 100px;
+  width: 1000px;
+}
+
+.homeHeading {
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-left: 300px;
+
+}
+
+.homepageparagraph {
+  text-align: center;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  padding: 45px;
+}
+
+/* .homepageButton {
+    width: 10em;
+    position: relative;
+    height: 3.5em;
+    border: 3px ridge #1479EA;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+   
+    cursor: pointer;
+  }
+  
+  .homepageButton::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: none;
+    transition: 0.5s;
+    transform-origin: center;
+  }
+  
+  .homepageButton::before {
+    content: "";
+    transform-origin: center;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: none;
+    transition: 0.5s;
+  }
+  
+  .homepageButton:hover::before, .homepageButton:hover::after {
+    transform: scale(0)
+  }
+  
+  .homepageButton:hover {
+    box-shadow: inset 0px 0px 25px #1479EA;
+  }*/
+
+
+.buttoncenter {
+  font-family: 'Josefin Sans', sans-serif;
+
+  margin-left: 50px;
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+button.learn-more {
+  width: 12rem;
+  height: auto;
+}
+
+button.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #a2bfff;
+  border-radius: 1.625rem;
+}
+
+button.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+
+button.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+
+button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+}
+
+button.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+button:hover .circle {
+  width: 100%;
+}
+
+button:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+}
+
+button:hover .button-text {
+  color: #fff;
+}
+
+.sub-homeBody {
+  margin-top: 149px;
+  background-color: rgb(255, 255, 255);
+
+}
+
+.course-Homebody {
+  padding: 100px;
+  text-align: center;
+}
+
+.home-course-heading {
+  font-size: 2.5rem;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+.home-cousre-para {
+  padding-top: 10px;
+  line-height: 1.6;
+  letter-spacing: 0.1rem;
+  color: #777;
+}
+
+.home-course-offer {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  column-gap: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 0.1rem;
+  margin-top: 50px;
+}
+
+.home-course-BCOM {
+  padding-top: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fdefef;
+  text-align: center;
+
+
+}
+
+.home-course-para {
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 0.1rem;
+  color: #777;
+  font-weight: 300px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 1rem;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size-adjust: inherit;
+}
+
+.home-course-BBA {
+  padding-top: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fef0f0;
+}
+
+.home-course-BCA {
+
+  border: none;
+  border-radius: 5px;
+  background-color: #fff1f1;
+}
+
+#home-course {
+
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  padding-top: 40px;
+}
+
+#home-course:hover {
+  box-shadow: 0 0 30px 5px rgba(79, 79, 79, 0.815);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+#home-course:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+}
+
+#home-course::before {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  box-shadow: 0 0 50px 30px white;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+#home-course:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+
+.home-campus {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.home-campus-para {
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 0.1rem;
+  color: #777;
+  font-weight: 300px;
+  margin-top: 30px;
+}
+
+.home-campus-heading {
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+.home-campus-img {
+  margin-left: 110px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  column-gap: 50px;
+  row-gap: 30px;
+}
+
+#img {
+  border: none;
+  border-radius: 10px;
+  height: 400px;
+  width: 300px;
+
+}
+
+.img1 {
+  background-image: url(https://github.com/Ullas9080/Image/blob/main/college6.webp?raw=true);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.img2 {
+  background-image: url(https://github.com/Ullas9080/Image/blob/main/college2.jpg?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.img3 {
+  background-image: url(https://github.com/Ullas9080/Image/blob/main/college3.jpg?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.img4 {
+  background-image: url(https://github.com/Ullas9080/Image/blob/main/college4.webp?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.img5 {
+  background-image: url(https://github.com/Ullas9080/Image/blob/main/college1.jpg?raw=true);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.img6 {
+  background-image: url(https://github.com/Ullas9080/Image/blob/main/college5.jpg?raw=true);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.img8 {
+  background-image: url(https://github.com/Ullas9080/Image/blob/main/college7.jpg?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.img7 {
+  background-image: url(https://github.com/Ullas9080/Image/blob/main/college7.avif?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#img {
+
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: none;
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  padding-top: 40px;
+}
+
+#img:hover {
+  box-shadow: 0 0 30px 5px rgba(79, 79, 79, 0.815);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+#img:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+}
+
+#img::before {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  box-shadow: 0 0 50px 30px white;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+#img:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+
+#home-course-img-para1 {
+  color: #000000;
+  padding-top: 150px;
+  font-size: 2rem;
+  font: bolder;
+}
+
+.home-course-img-para {
+  display: none;
+}
+
+.Student-opinoin {
+  margin-top: 100px;
+
+}
+
+.Student-heading {
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+
+.Student-review-para {
+  text-align: center;
+  padding-top: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 0.1rem;
+  color: #777;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.Student-bio {
+  background-color: rgb(255, 219, 219);
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  border-radius: 30px;
+}
+
+.bio {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 500px 500px;
+
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 5px;
+  column-gap: 60px;
+}
+
+.Student-img {
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.Student-details {
+  padding: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 0.1rem;
+  color: #686767;
+  font-size: .99rem;
+
+}
+
+.src-image {
+  border: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+}
+
+#src-image1 {
+  background-image: url(https://github.com/Ullas9080/Image/blob/main/Screenshot%202024-06-02%20004758.png?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#src-image2 {
+  background-image: url(https://github.com/Ullas9080/Image/blob/main/Screenshot%202024-06-02%20004901.png?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.student-name1 {
+  color: #000000;
+  padding-top: 20px;
+}
+
+.student-name2 {
+  color: #000000;
+  padding-top: 20px;
+}
+
+
+.home-about {
+  margin-top: 120px;
+  height: 70vh;
+  border: none;
+  border-radius: 10px;
+}
+
+.home-about {
+
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://github.com/Ullas9080/Image/blob/main/360_F_651446718_ZIHGEFxdN1ZSP2hVmtembHIpShrOUo3e.jpg?raw=true);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.home-about-para {
+  color: white;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.home-about-heading {
+  font-size: 1.5rem;
+  padding-top: 60px;
+}
+
+.button {
+  margin: 0;
+  height: auto;
+  background: transparent;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.button {
+  --border-right: 6px;
+  --text-stroke-color: rgba(255, 255, 255, 0.6);
+  --animation-color: #00ff73;
+  --fs-size: 2em;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: var(--fs-size);
+  font-family: "Arial";
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+
+/* this is the text, when you hover on button */
+.hover-text {
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-text-stroke: 1px var(--animation-color);
+}
+
+.button:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 23px var(--animation-color))
+}
+
+.home-contact {
+  margin-top: 70px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.home-contact-heading {
+  text-align: center;
+}
+
+.home-contact-moblie {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+.home-contact-email {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+.home-contact-detail {
+  padding-left: 30px;
+}

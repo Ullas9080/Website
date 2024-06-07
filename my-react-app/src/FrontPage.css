@@ -1,0 +1,94 @@
+.FrontpageBody {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.646)), url(https://github.com/Ullas9080/Image/blob/main/college%20font%20image.png?raw=true);
+  /* url(https://github.com/Ullas9080/Image/blob/main/Screenshot%202024-06-05%20200100.png?raw=true); */
+  /* https://github.com/Ullas9080/Image/blob/main/zoom%20in%20backgroung.jpg?raw=true */
+  /* url(https://github.com/Ullas9080/Image/blob/main/college6.webp?raw=true); */
+  /* url(https://github.com/Ullas9080/Image/blob/main/banner.png?raw=true); */
+
+  height: 100vh;
+  background-size: cover;
+
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+* {
+  margin: 0%;
+}
+
+.pages {
+  border: none;
+  display: flex;
+  padding-top: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.page {
+  padding-left: 460px;
+
+  justify-content: space-between;
+  font-size: medium;
+
+}
+
+.sub-page {
+  padding-right: 2px;
+  padding-left: 25px;
+  color: black;
+  color: rgb(255, 242, 242);
+  letter-spacing: 0.3em, 3px, 0.3px;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.1rem;
+
+}
+
+.collegeName {
+  font-size: large;
+  padding-top: 5px;
+  color: white;
+}
+
+.collegeimg {
+  padding-left: 55px;
+
+}
+
+.sub-page {
+
+  color: #e1e1e1;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+.sub-page:focus,
+.sub-page:hover {
+  color: #ff0000;
+}
+
+.sub-page:focus:after,
+.sub-page:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.sub-page:after {
+  content: "";
+  pointer-events: none;
+  bottom: 0px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #ff0000;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}

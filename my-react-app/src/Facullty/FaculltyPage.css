@@ -1,0 +1,371 @@
+.white {
+  text-align: center;
+  color: rgb(129, 129, 129);
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 0.1rem;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.college-website-heading1 {
+  display: inline-block;
+  text-transform: capitalize;
+  cursor: pointer;
+  transform: skew(-21deg);
+  text-align: center;
+}
+
+.span1 {
+  display: inline-block;
+  transform: skew(21deg);
+}
+
+.college-website-heading1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  left: 0;
+  background: rgb(20, 20, 20);
+  opacity: 0;
+  z-index: -1;
+  transition: all 0.5s;
+}
+
+.college-website-heading1:hover {
+  color: #fff;
+}
+
+.college-website-heading1:hover::before {
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+.college-website-heading1 {
+  letter-spacing: 0.1rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin-top: 90px;
+  margin-left: 400px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: white;
+}
+
+.faculty-body {
+  height: 250vh;
+  background-color: rgb(255, 253, 253);
+}
+
+.faculty-members {
+  margin-top: 20px;
+}
+
+.faculty-members {
+
+  margin-left: 150px;
+  margin-right: 140px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+}
+
+.faculty-information {
+  margin-left: -200px;
+  margin-top: -60px;
+}
+
+.faculty-member-para {
+  margin-top: 30px;
+  text-align: center;
+  color: rgb(129, 129, 129);
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+.faculty-member-heading {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  padding-top: 70px;
+
+  letter-spacing: 0.1rem;
+  color: black;
+}
+
+.faculty-image {
+  border-radius: 10px;
+  height: 170px;
+  width: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.button-display {
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+
+.faculty-image {
+  background-color: #fdefef;
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: none;
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  padding-top: 40px;
+}
+
+.faculty-image:hover {
+  box-shadow: 0 0 30px 5px rgba(79, 79, 79, 0.815);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.faculty-image:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+}
+
+.faculty-image::before {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  box-shadow: 0 0 50px 30px white;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+.faculty-image:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+
+#faculty-image1 {
+  background-image: url(https://github.com/Ullas9080/Image/blob/main/Faculty%20members/principle.jpg?raw=true);
+
+}
+
+#faculty-image2 {
+  background-image: url(https://github.com/Ullas9080/Image/blob/main/Faculty%20members/kirankumar.jpg?raw=true);
+
+}
+
+#faculty-image3 {
+  background-image: url(https://github.com/Ullas9080/Image/blob/main/Faculty%20members/balram.jpg?raw=true);
+
+}
+
+#faculty-image4 {
+  background-image: url(https://github.com/Ullas9080/Image/blob/main/Faculty%20members/sowmya.jpg?raw=true);
+
+}
+
+#faculty-image5 {
+  background-image: url(https://github.com/Ullas9080/Image/blob/main/Faculty%20members/pratibasingh.jpg?raw=true);
+
+}
+
+.button-display {}
+
+/* .fancy {
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 1.25em 2em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    transition: all 0.3s ease-in-out;
+   
+    font-size: 13px;
+   }
+   
+   .fancy::before {
+    content: " ";
+    width: 1rem;
+    height: 2px;
+    background: black;
+    top: 50%;
+    left: 1.5em;
+    position: absolute;
+    transform: translateY(-50%);
+    transform-origin: center;
+    transition: background 0.3s linear, width 0.3s linear;
+   }
+   
+   .fancy .text {
+    font-size: 1.125em;
+    line-height: 1.33333em;
+    padding-left: 1em;
+    display: block;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+   }
+   
+   .fancy .top-key {
+    height: 2px;
+    width: 1.5625rem;
+    top: -2px;
+    left: 0.625rem;
+    position: absolute;
+    background: rgb(255, 253, 253);
+    transition: width 0.5s ease-out, left 0.3s ease-out;
+   }
+   
+   .fancy .bottom-key-1 {
+    height: 2px;
+    width: 1.5625rem;
+    right: 1.875rem;
+    bottom: -2px;
+    position: absolute;
+    background: rgb(255, 253, 253);
+    transition: width 0.5s ease-out, right 0.3s ease-out;
+   }
+   
+   .fancy .bottom-key-2 {
+    height: 2px;
+    width: 0.625rem;
+    right: 0.625rem;
+    bottom: -2px;
+    position: absolute;
+    background: #e8e8e8;
+    transition: width 0.5s ease-out, right 0.3s ease-out;
+   }
+   
+   .fancy:hover {
+    color:rgb(255, 253, 253);
+    background: black;
+   }
+   
+   .fancy:hover::before {
+    width: 0.9375rem;
+    background: rgb(255, 253, 253);
+   }
+   
+   .fancy:hover .text {
+    color:rgb(255, 253, 253);
+    padding-left: 1.5em;
+   }
+   
+   .fancy:hover .top-key {
+    left: -2px;
+    width: 0px;
+   }
+   
+   .fancy:hover .bottom-key-1,
+    .fancy:hover .bottom-key-2 {
+    right: 0;
+    width: 0;
+   } */
+
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: #b1dae7;
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+}
+
+.cta span {
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #234567;
+}
+
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #234567;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+  width: 100%;
+  background: #b1dae7;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active {
+  transform: scale(0.95);
+}

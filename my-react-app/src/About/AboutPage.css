@@ -1,0 +1,177 @@
+.About-Page-body {
+  height: 200vh;
+  background-color: white;
+  margin-top: 50px;
+}
+
+.founder-member {
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-right: 140px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 50px;
+}
+
+.founder-image {
+  border-radius: 10px;
+  height: 170px;
+  width: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.founder-information {
+  text-align: center;
+
+  margin-left: -200px;
+  margin-top: -60px;
+}
+
+.founder-name {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  padding-top: 70px;
+
+  letter-spacing: 0.1rem;
+  color: black;
+}
+
+.founder-para {
+  margin-top: 30px;
+  text-align: center;
+  color: rgb(129, 129, 129);
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+#founder-image1 {
+  background-image: url(https://github.com/Ullas9080/Image/blob/main/Faculty%20members/Sreenivasaiah.jpg?raw=true);
+}
+
+#founder-image2 {
+  background-image: url(https://github.com/Ullas9080/Image/blob/main/Faculty%20members/Narayan.jpeg?raw=true);
+}
+
+#founder-image3 {
+  background-image: url(https://github.com/Ullas9080/Image/blob/main/Faculty%20members/aviram%2022.jpg?raw=true);
+}
+
+.founder-image {
+  background-color: #fdefef;
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: none;
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  padding-top: 40px;
+}
+
+.founder-image:hover {
+  box-shadow: 0 0 30px 5px rgba(79, 79, 79, 0.815);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.founder-image:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+}
+
+.founder-image::before {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  box-shadow: 0 0 50px 30px white;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+.founder-image:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+
+.about-college-page-heading {
+  font-family: 'Josefin Sans', sans-serif;
+
+  text-align: center;
+  margin-top: 60px;
+}
+
+.about-page-para {
+  margin-top: 30px;
+  text-align: center;
+  color: rgb(129, 129, 129);
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 0.1rem;
+  padding-top: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 20px;
+}
+
+.about-page-image {
+  border: none;
+  border-radius: 10px;
+  height: 450px;
+  background-image: url(https://github.com/Ullas9080/Image/blob/main/college%20font%20image.png?raw=true);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 30px;
+
+}
+
+.about-college-page-sub-heading {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+}
+
+.college-awards {
+  margin-top: 30px;
+
+  color: rgb(129, 129, 129);
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 0.1rem;
+}
