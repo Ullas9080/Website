@@ -1,0 +1,62 @@
+.events-heading
+{
+    margin-top: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+}
+.events{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+    
+}
+
+#events-image
+{
+height: 200px;
+width: 200px;
+border-radius: 20px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.events1-image1
+{
+    background-image: url(https://github.com/Ullas9080/Image/blob/main/Events/5.jpg?raw=true);
+  
+}
+.events1-image2
+{
+    background-image: url(https://github.com/Ullas9080/Image/blob/main/Events/6.jpg?raw=true);
+  
+}
+.events1-image3
+{
+    background-image: url(https://github.com/Ullas9080/Image/blob/main/Events/1.jpg?raw=true);
+  
+}
+.events1-image4
+{
+    background-image: url(https://github.com/Ullas9080/Image/blob/main/Events/2.jpg?raw=true);
+  
+}
+.events1-image5
+{
+    background-image: url(https://github.com/Ullas9080/Image/blob/main/Events/3.jpg?raw=true);
+  
+}
+.events1-image6
+{
+    background-image: url(https://github.com/Ullas9080/Image/blob/main/Events/4.jpg?raw=true);
+  
+}
+body{
+    background-image: url(https://github.com/Ullas9080/Image/blob/main/download.jpeg?raw=true);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

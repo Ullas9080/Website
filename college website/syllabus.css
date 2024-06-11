@@ -1,0 +1,19 @@
+.semester {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    row-gap: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 600;
+    column-gap: 200px;
+}
+.sem{
+    width: 300px;
+}
+body{
+    background-image: url(https://github.com/Ullas9080/Image/blob/main/download.jpeg?raw=true);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,39 @@
+body{
+    background-image: url(https://github.com/Ullas9080/Image/blob/main/download.jpeg?raw=true);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-us{
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        row-gap: 30px;
+        margin-top: 50px;
+        font-weight: 400;
+        color: rgb(0, 0, 0);
+        font-family: 'Josefin Sans', sans-serif;
+        letter-spacing: 0.1rem;
+    
+        margin-left: 100px;
+      
+}
+
+#img
+{
+    height: 300px;
+    width: 250px;
+    border-radius: 20px;
+}
+.about-us-images1 {
+    background-image: url(https://github.com/Ullas9080/Image/blob/main/Faculty%20members/principle.jpg?raw=true);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-us-image2 {
+    background-image: url(https://github.com/Ullas9080/Image/blob/main/Faculty%20members/aviram%2022.jpg?raw=true);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
