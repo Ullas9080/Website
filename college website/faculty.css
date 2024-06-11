@@ -1,0 +1,44 @@
+.faculty-heading{
+    margin-top: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.faculty-deatils
+{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    row-gap: 30px;
+}
+
+#img
+{
+height: 300px;
+width: 250px;
+}{
+    font-weight:400;
+    color: rgb(0, 0, 0);
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 0.1rem;
+}
+.faculty-images1
+{
+    background-image: url(https://github.com/Ullas9080/Image/blob/main/Faculty%20members/kirankumar.jpg?raw=true);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.faculty-images2
+{
+    background-image: url(https://github.com/Ullas9080/Image/blob/main/Faculty%20members/balram.jpg?raw=true);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
